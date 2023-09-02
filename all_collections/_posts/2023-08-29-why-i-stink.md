@@ -1,6 +1,6 @@
 ---
 layout: post
-title: why i stink
+title: why i stinks
 date: 2023-08-29
 categories: ["jekyll", "Test Post", "first post"]
 ---
