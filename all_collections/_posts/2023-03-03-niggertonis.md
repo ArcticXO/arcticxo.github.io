@@ -5,7 +5,7 @@ date: 2023-08-29
 categories: ["jekyll", "Test Post", "first post"]
 ---
 
-the reason i smell is ... i dont smell...
+the reason i smell is ... i dont smell... I lied
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`
 
