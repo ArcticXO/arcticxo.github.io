@@ -1,56 +1,111 @@
-# Jekyll Theme Serial Programmer
+[Take a look at my batty](./another-page.html).
 
-> A Jekyll theme for serial programmers (-.-)
+There should be whitespace between paragraphs.
 
-[Live Demo](https://sharadcodes.github.io/jekyll-theme-serial-programmer/)
+There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-## How to install
+#### Image
 
-1. Download or clone the repo
-   `git clone https://github.com/sharadcodes/jekyll-theme-serial-programmer.git`
-2. Enter the folder
-   `cd jekyll-theme-serial-programmer`
-3. Run
-   `bundle install`
-4. Start Jekyll server
-   `bundle exec jekyll serve`
-5. Access via
-   - localhost or according to your pc configurations.
-6. Change the `_config.yml` & `_data/author.yml` files as you like.
-7. Upload the files on your repository and :sunglasses: enjoy.
+Images can be clicked to enlarge :)
 
-> NOTE: You have to remove `url` and `baseurl` from `_config.yml` to use this theme for `<your-username>.github.io`
+![Dummy Image 1](https://picsum.photos/1366/768)
+![Dummy Image 2](https://picsum.photos/1200/400)
 
-## Alert!
+# Header 1
 
-* Don't touch `categories.js` inside `assets/js` folder unless you know what you're doing, it is used for generating links for the particular category pill you click on.
-* You should use github [discussions](https://github.com/sharadcodes/jekyll-theme-serial-programmer/discussions) to ask any question.
-* Don't use issues to ask any question unless you are facing issue related to the theme, jekyll or any file.
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-## Asking for support!
+## Header 2
 
-Hello everyone, If you have used this theme and if it has helped you in any way or if you just want to support me for my open source work, you can support me by donating any amount.
+> This is a blockquote following a header.
+>
+> When something is important enough, you do it even if the odds are not in your favor.
 
-You can use the sponsor button at the top or on the right. 
+### Header 3
 
-### [Github Sponsor Page](https://github.com/sponsors/sharadcodes)
+> This is another blockquote following header 3
 
-### Crypto Wallet: `0x6274B3b84a66DD87929CEa9d10a4187BC6E70169`
+```js
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require("./lang/" + l);
+  return true;
+};
+```
 
-# Screenshots
+```ruby
+# Ruby code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
+```
 
-## PC BLOG PAGE
+#### Header 4
 
-![Blog page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-serial-programmer/main/screenshots/pc_blog.png)
+- This is an unordered list following a header.
+- This is an unordered list following a header.
+- This is an unordered list following a header.
 
-## PC POST EXAMPLE
+##### Header 5
 
-![Post page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-serial-programmer/main/screenshots/pc_post.png)
+1.  This is an ordered list following a header.
+2.  This is an ordered list following a header.
+3.  This is an ordered list following a header.
 
-## PHONE BLOG PAGE
+###### Header 6
 
-![Blog page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-serial-programmer/main/screenshots/mobile_blog.png)
+| head1        | head two          | three |
+| :----------- | :---------------- | :---- |
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
 
-## PHONE POST EXAMPLE
+### There's a horizontal rule below this.
 
-![Post page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-serial-programmer/main/screenshots/mobile_post.png)
+---
+
+### Here is an unordered list:
+
+- Item foo
+- Item bar
+- Item baz
+- Item zip
+
+### And an ordered list:
+
+1.  Item one
+    1.  Item one
+    1.  Item two
+        1.  Item one
+        1.  Item two
+        1.  Item three
+    1.  Item three
+1.  Item four
+1.  Item two
+1.  Item three
+1.  Item four
+
+### And a nested list:
+
+- level 1 item
+  - level 2 item
+  - level 2 item
+    - level 3 item
+    - level 3 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+
+```
+Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long.
+```
+
+```
+The final element.
+```
