@@ -1,8 +1,13 @@
 const toggleSwitch = document.querySelector("#dark-mode-toggle");
-// const currentTheme = localStorage.getItem("theme");
+const currentTheme = localStorage.getItem("theme");
 
-if (currentTheme) {
-  document.documentElement.setAttribute("data-theme", currentTheme);
+if (!currentTheme || currentTheme === "light") {
+  // Set default mode to light
+  document.documentElement.setAttribute("data-theme", "light");
+  // Update localStorage to reflect the default mode
+  localStorage.setItem("theme", "light");
+} else {
+  document.documentElement.setAttribute("data-theme", "dark");
 }
 
 function switchTheme() {
