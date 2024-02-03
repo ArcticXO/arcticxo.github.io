@@ -14,8 +14,8 @@
 }
 html,
 body {
-  color: red;
-  background-color: var(--gray-6);
+  color: var(--white-2);
+  background-color: palegreen;
   font-family: "JetBrains Mono", monospace;
   line-height: 2rem;
   background-color: var(--gray-5);
