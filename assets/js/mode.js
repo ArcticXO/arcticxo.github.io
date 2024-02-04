@@ -16,4 +16,4 @@ function switchTheme() {
   }
 }
 
-toggleSwitch.addEventListener("click", switchTheme, false);
+toggleSwitch.addEventListener("click", switchTheme, false)
